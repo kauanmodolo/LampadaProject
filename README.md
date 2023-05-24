@@ -3,7 +3,7 @@
 # 🚧 O PROJETO
 Este é um projeto de uma web lâmpada, na qual o usuário controla seu interruptor/switch, fazendo-a ligar, desligar e quebrar-se ao ser clicada.
 //
-This is a project of a web lamp, in which the user controls its switch, turning it on, off and breaking when clicked.
+This is a project of a web lamp, where the user controls a switch, turning it on, off and breaking when clicked.
 
 # 🚀 TECNOLOGIAS
 Essas são as tecnologias utilizadas no projeto:
