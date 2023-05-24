@@ -20,6 +20,12 @@ function lampOff (){
 
 function lampBroken (){
     lamp.src= "quebrada.png";
+    turnOnOff.textContent = "Comprar lâmpada";
+    turnOnOff.style.width = "40vh";
+}
+
+function lampRestore(){
+    lamp.src = "desligada.png";
 }
 
 function lampOnOff (){
@@ -31,13 +37,16 @@ function lampOnOff (){
         lampOff();
         turnOnOff.textContent = "Ligar";
     }
+    if (isLampBroken()){
+        lampRestore();
+        window.open("https://shopee.com.br/search?keyword=l%C3%A2mpada", "_blank");
+    }    
 }
 
 turnOnOff.addEventListener ("click", lampOnOff);
 lamp.addEventListener ("mouseover", lampOn);
 lamp.addEventListener ("mouseleave", lampOff);
 lamp.addEventListener ("click", lampBroken);
-
 
 
 
